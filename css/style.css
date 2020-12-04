@@ -1,0 +1,106 @@
+body{background: #1e5799;
+  background: -moz-linear-gradient(-45deg,  #1e5799 0%, #2989d8 50%, #dd81f4 51%, #7db9e8 100%);
+  background: -webkit-linear-gradient(-45deg,  #1e5799 0%,#2989d8 50%,#dd81f4 51%,#7db9e8 100%);
+  background: linear-gradient(135deg,  #1e5799 0%,#2989d8 50%,#dd81f4 51%,#7db9e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+}
+/*header区域的样式*/
+#header{background-color: black;
+        color: white;
+        height: 120px;
+      }
+
+#header2{width: 1100px;
+         margin-left: auto;
+         margin-right: auto;
+}
+
+#logo_header{float: left;}
+
+#navigation_header{float: right;}
+
+#navigation_header ul li{float: left;
+   list-style-type: none;
+   margin-right: 20px;
+   margin-top: 20px;
+   font-size: 20px;
+   background-color: rgb(197, 22, 145);
+   padding: 8px;
+}
+
+#navigation_header ul li:hover{background-color: red;}
+#navigation_header ul #currentPage{background-color: red;}
+
+a:link, a:visited{color: white;
+        text-decoration: none;
+}
+
+/*各个页面主题区域的样式*/
+#page{width: 1100px;
+  /*height: 100px;
+  border: yellow 2px dotted;不需要，纯为占位*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td{background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0.51) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0.51) 0%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(135deg,  rgba(255,255,255,0.51) 0%,rgba(255,255,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82ffffff', endColorstr='#00ffffff',GradientType=1 );
+  width: 250px;
+  height: 150px;
+  padding: 5px;
+  }
+
+#left{background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0.51) 0%, rgba(255,255,255,0) 100%);
+      background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0.51) 0%,rgba(255,255,255,0) 100%);
+      background: linear-gradient(135deg,  rgba(255,255,255,0.51) 0%,rgba(255,255,255,0) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82ffffff', endColorstr='#00ffffff',GradientType=1 );
+        width: 46%;
+        height: 100px;/*添加图片后删掉高度*/
+        float: left;
+  }  
+
+#right{background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0.51) 0%, rgba(255,255,255,0) 100%);
+      background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0.51) 0%,rgba(255,255,255,0) 100%);
+      background: linear-gradient(135deg,  rgba(255,255,255,0.51) 0%,rgba(255,255,255,0) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82ffffff', endColorstr='#00ffffff',GradientType=1 );
+        width: 50%;
+        float: right;
+  }
+
+.input{background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0.48) 0%, rgba(255,255,255,0) 100%);
+      background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0.48) 0%,rgba(255,255,255,0) 100%);
+      background: linear-gradient(135deg,  rgba(255,255,255,0.48) 0%,rgba(255,255,255,0) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7affffff', endColorstr='#00ffffff',GradientType=1 );
+
+}
+
+.clear{clear: both;}
+
+/*footer区域的样式*/
+#footer{background-color: black;
+  color: white;
+  height: 120px;
+}
+
+#footer2{width: 1100px;
+   
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#logo_footer{float: left;}
+
+#navigation_footer{float: right;}
+
+#navigation_footer ul li{float: left;
+list-style-type: none;
+margin-right: 10px;
+margin-top: 10px;
+font-size:20px;
+}
+
+#navigation_footer ul li img{width: 70%;
+                              height: 70%;
+}
